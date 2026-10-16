@@ -39,12 +39,12 @@ const NotFoundPage = () => {
             Go back home
           </Link>
 
-          <a
-            href="#"
+          <Link
+            to="/"
             className="text-sm font-semibold text-gray-900 hover:text-indigo-600"
           >
             Contact support <span aria-hidden="true">&rarr;</span>
-          </a>
+          </Link>
         </div>
       </div>
     </div>
